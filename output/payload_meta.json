@@ -1,0 +1,12 @@
+{
+  "shape": [
+    256,
+    256,
+    3
+  ],
+  "is_binary": true,
+  "bits_count": 196608,
+  "color_mode": "RGB",
+  "payload_type": "image",
+  "lsb_planes": 1
+}

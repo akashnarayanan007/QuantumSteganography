@@ -1,0 +1,26 @@
+image:
+  cover_size: 256             # Upgrade to 256 (support clean scaling up to 512)
+  grayscale_bits: 8
+  cover_path: "sample_images/cover.png"
+  secret_path: "sample_images/secret.png"
+  color_mode: "RGB"
+  enhance_contrast: false     # Avoid synthetic halo artifacts
+
+quantum:
+  backend: "statevector"
+  shots: 8192
+  noise_level: 0.001
+
+embedding:
+  lsb_planes: 1
+  payload_type: "image"
+  secret_text: "AKASH_QIS"
+
+metrics:
+  target_psnr: 48.0
+  target_ssim: 0.99
+
+output:
+  save_circuit_diagram: true
+  save_all_plots: true
+  output_dir: "output"

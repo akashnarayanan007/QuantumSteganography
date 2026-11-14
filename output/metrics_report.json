@@ -1,0 +1,25 @@
+{
+  "psnr_db": 51.2518,
+  "ssim": 0.998189,
+  "mse": 0.487417,
+  "ber": 0.0,
+  "payload_capacity_bits": 65536,
+  "embedding_rate_bpp": 3.0,
+  "status_psnr": "PASS",
+  "status_ssim": "PASS",
+  "status_ber": "PASS",
+  "target_psnr_db": 48.0,
+  "target_ssim": 0.99,
+  "circuit_metrics": {
+    "num_qubits": 12,
+    "total_gates": 159,
+    "circuit_depth": 104,
+    "nonlocal_gates": 64,
+    "gate_breakdown": {
+      "x": 90,
+      "mcx": 64,
+      "h": 4,
+      "barrier": 1
+    }
+  }
+}
